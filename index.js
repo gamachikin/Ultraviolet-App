@@ -10,7 +10,7 @@ chemical.use(compression());
 
 chemical.use(
   express.static("public", {
-    index: "proxy.html",
+    index: "index.html",
     extensions: ["html"],
   })
 );
